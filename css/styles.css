@@ -476,6 +476,7 @@ output {
 
 iframe {
   border-radius: 25px;
+  max-width: 100%;
 }
 
 summary {
