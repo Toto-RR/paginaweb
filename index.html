@@ -74,9 +74,9 @@
                     </div>
                 </div>
                 <!-- Project One Row-->
-                 <div class="row gx-0 justify-content-center">
+                <div class="row gx-0 justify-content-center">
                     <div class="col-lg-6">
-                        <a class="example1-link" data-bs-toggle="modal" href="#exampleModal1">
+                        <a id=btn-abrir-modal href="#exampleModal1">
                             <img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." />
                         </a>
                     </div>
@@ -245,5 +245,11 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <!-- ExampleModals-->
+        <!-- Modal 1-->
+        <dialog id="modal1">
+            <h2>Hola, soy un texto de ejemplo</h2>
+            <p>En este recuadro tiene que ir ifnromacion precisa sobre los diferentes mundos</p>
+            <button id="btn-cerrar-modal">Cerrar modal</button>
+        </dialog>
     </body>
 </html>
